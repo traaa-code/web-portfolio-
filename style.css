@@ -137,3 +137,100 @@ footer .footer-text {
     font-weight: 800;
     margin: 0;
 }
+
+/* Mobile Phone Only (max-width: 480px) */
+@media (max-width: 480px) {
+    .nav-container {
+        padding: 12px 20px;
+    }
+
+    .nav-menu {
+        gap: 30px;
+    }
+
+    .nav-menu a {
+        font-size: 16px;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .abt-me-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .skill-icon {
+        width: 95px;
+        height: 95px;
+    }
+    
+    .skills {
+        flex-direction: column;
+        gap: 0px;
+        margin-top: -10px;
+    }
+
+    .html-text, .css-text, .js-text, .ui-ux-text {
+        font-size: 0;
+    }
+
+    .html-css, .javascript-ui-ux {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .project-title{
+        font-size: 31px;
+    }
+
+    .project-subtitle, .social-media-subtitle {
+        font-size: 19px;
+    }
+
+    .project-1-to-2, .project-3-to-5 {
+        flex-direction: row;
+        gap: -10px;
+    }
+
+    .project-img {
+        width: 140px;
+        height: auto;
+    }
+
+    .social-media-title {
+        font-size: 37px;
+    }
+
+    .social-media-button {
+        gap: 10px;
+        flex-direction: row;
+    }
+
+    .social-row-1, .social-row-2 {
+        flex-direction: column;
+        gap: -10px;
+    }
+
+    .social-media-img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer .footer-text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    footer {
+        margin-top: 30px;
+        background-color: #2B4F97;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 25px 0;
+        height: 70px;
+    }
